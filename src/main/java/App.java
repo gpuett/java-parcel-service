@@ -27,6 +27,7 @@ public class App {
                 int userPrice = userParcel.costToShip(shippingType);
                 System.out.println("Okay, the price to ship will be:");
                 System.out.println("$" + userPrice);
+                programRunning = false;
 
             } catch (IOException e) {
                 e.printStackTrace();
